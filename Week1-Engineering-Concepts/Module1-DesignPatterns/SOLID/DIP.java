@@ -23,7 +23,7 @@ class notification{
     }
     public void notifyUser(){
         service.sendMessage();
-}
+    }
 }
 public class DIP{
     public static void main(String args []){
