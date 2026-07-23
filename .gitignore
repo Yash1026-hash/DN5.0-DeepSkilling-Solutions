@@ -1,0 +1,9 @@
+.DS_Store
+target/
+*.class
+.idea/
+.vscode/
+out/
+*.iml
+*.pdf
+*.xlsx

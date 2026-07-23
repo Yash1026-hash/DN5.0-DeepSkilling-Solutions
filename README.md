@@ -1,6 +1,6 @@
-# DN5.0 Deep Skilling Solutions
+# DN5.0 DeepSkilling Solutions
 
-This repository contains my solutions and practice work for the DN5.0 Deep Skilling Program.
+Solutions for DN5.0 DeepSkilling exercises organized week-wise from Week 1 to Week 5.
 
 ## Repository Structure
 
@@ -9,116 +9,109 @@ DN5.0-DeepSkilling-Solutions
 │
 ├── Week1-Engineering-Concepts
 │   ├── Module1-DesignPatterns
-│   └── Module2-DSA
+│   └── Module-2-DSA
 │
-└── Week-2
-    ├── Module-3-plsql
-    └── Module-4-TDD-Logging
+├── Week-2
+│   ├── Module-3-psql
+│   └── Module-4-TDD-Logging
+│
+├── Week-3
+│   └── Module-5-SpringCore
+│
+├── Week-4
+│   └── Module-6-SpringDataJPA
+│
+└── Week-5
+    └── Module-7-SpringREST
 ```
 
 ---
 
-## Week 1
+## Week 1 — Engineering Concepts
 
-### Module 1 - Design Patterns
+### Module 1: Design Patterns
+- **SOLID Principles**: Single Responsibility (SRP), Open/Closed (OCP), Liskov Substitution (LSP), Interface Segregation (ISP), Dependency Inversion (DIP)
+- **Creational Patterns**: Singleton, Factory Method, Builder
+- **Structural Patterns**: Adapter, Decorator, Proxy
+- **Behavioral Patterns**: Observer, Strategy, Command
 
-Implemented the following design patterns:
-
-- Singleton
-- Factory Method
-- Builder
-- Adapter
-- Decorator
-- Proxy
-- Observer
-- Strategy
-- Command
-
-Also covered the SOLID principles:
-
-- Single Responsibility Principle (SRP)
-- Open Closed Principle (OCP)
-- Liskov Substitution Principle (LSP)
-- Interface Segregation Principle (ISP)
-- Dependency Inversion Principle (DIP)
+### Module 2: Data Structures & Algorithms
+- Array Operations & Search (Linear Search, Binary Search)
+- Linked Lists (Singly Linked List, Doubly Linked List)
+- Sorting Algorithms (Bubble, Insertion, Merge, Quick, Heap Sort)
+- Stack Operations & Queue Operations
+- Binary Search Tree (Insert, Search, Traversals)
+- Graph Traversal (Adjacency List, BFS, DFS)
+- HashMap Operations
 
 ---
 
-### Module 2 - Data Structures & Algorithms
+## Week 2 — Database & Testing Concepts
 
-Implemented:
+### Module 3: PL/SQL Basics
+- PL/SQL Anonymous Blocks & Control Structures
+- Stored Procedures & Functions
+- Explicit Cursors & Exception Handling
+- Packages & Triggers
 
-- Array Operations
-- Single Linked List
-- Doubly Linked List
-- Sorting Algorithms
-  - Bubble Sort
-  - Insertion Sort
-  - Merge Sort
-  - Quick Sort
-  - Heap Sort
-- Search Algorithms
-  - Linear Search
-  - Binary Search
+### Module 4: TDD & Logging
+- Unit Testing with **JUnit 5** (Assertions & Lifecycle annotations)
+- Mocking with **Mockito** (`@Mock`, `@InjectMocks`, `when/thenReturn`, `verify`)
+- Logging with **SLF4J**
+- Boilerplate reduction using **Lombok**
 
 ---
 
-## Week 2
+## Week 3 — Spring Core Framework & Maven
 
-### Module 3 - PL/SQL
-
-Created:
-
-- plsql_basics.sql
-- cursors_exceptions.sql
-- procedures_functions.sql
-- packages_triggers.sql
-
-Topics Covered:
-
-- Anonymous Blocks
-- Variables
-- IF-THEN-ELSE
-- CASE Statements
-- FOR, WHILE and LOOP
-- Explicit Cursors
-- Exception Handling
-- Stored Procedures
-- Functions
-- Packages
-- Triggers
+### Module 5: Spring Core
+- Maven Project Configuration (`pom.xml`)
+- Spring IoC Container & ApplicationContext (`@Configuration`, `@Bean`, `@ComponentScan`)
+- Dependency Injection & Autowiring (`@Autowired`, `@Service`, `@Component`, `@Primary`)
+- Loose Coupling Implementation (Sorting strategies with `SortRunner`)
 
 ---
 
-### Module 4 - TDD & Logging
+## Week 4 — Spring Data JPA & Hibernate
 
-Completed:
+### Module 6: Spring Data JPA
+- Spring Boot 3 integration with H2 in-memory database
+- JPA Entities & Relationships (`@Entity`, `@Table`, `@Id`, `@Column`, `@ManyToOne`, `@OneToMany`)
+- `JpaRepository` interface & Derived Query Methods
+- Custom JPQL Queries (`@Query`)
+- Data initialization with `CommandLineRunner`
 
-- pom.xml
-- Calculator.java
+---
 
-Topics:
+## Week 5 — Spring REST using Spring Boot 3
 
-- Maven
-- JUnit 5
-- Mockito
-- SLF4J
-- Lombok
+### Module 7: Spring REST
+- RESTful Web Services architecture & URL design best practices
+- `@RestController`, `@RequestMapping`, `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`
+- Request/Response handling with `ResponseEntity`
+- Custom Exception (`ProductNotFoundException`)
+- Global Exception Handling with `@ControllerAdvice` and `@ExceptionHandler`
 
 ---
 
 ## Technologies Used
 
-- Java
+- Java 17
+- Spring Boot 3 & Spring Framework 6
+- Spring Data JPA & Hibernate
+- H2 Database
+- JUnit 5 & Mockito
+- SLF4J & Lombok
 - PL/SQL
 - Maven
-- Git
-- GitHub
-- IntelliJ IDEA Community Edition
+- Git & GitHub
 
 ---
 
 ## Status
 
 - ✅ Week 1 Completed
-- 🚧 Week 2 In Progress
+- ✅ Week 2 Completed
+- ✅ Week 3 Completed
+- ✅ Week 4 Completed
+- ✅ Week 5 Completed
